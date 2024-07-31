@@ -1,0 +1,18 @@
+// Modificar los colores predeterminados de Bootstrap creando tu propia paleta de
+// colores. (2 Puntos)
+
+$primary-color: #34495e;
+$secondary-color: #cc2ebf;
+$light-color: #ecf0f1;
+$dark-color: #2c3e50;
+$accent-color: #e74c3c;
+$bg-light: #f4f6f7;
+
+$theme-colors: (
+  "primary": $primary-color,
+  "secondary": $secondary-color,
+  "success": $secondary-color,
+  "danger": $accent-color,
+  "light": $light-color,
+  "dark": $dark-color
+);

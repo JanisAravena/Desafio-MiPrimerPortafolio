@@ -1,0 +1,16 @@
+@use "../../node_modules/bootstrap/scss/bootstrap";
+
+// @import "vendors/bootstrap";
+@import "abstracts/variables";
+// @import "abstracts/mixins";
+// @import "base/reset";
+@import "base/typography";
+@import "components/buttons";
+@import "components/navbar";
+@import "components/forms";
+// @import "layout/header";
+// @import "layout/footer";
+// @import "layout/grid";
+// @import "pages/home";
+@import "pages/contact";
+// @import "themes/theme";

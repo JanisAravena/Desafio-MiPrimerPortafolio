@@ -1,0 +1,29 @@
+#contacto {
+    background-color: $bg-light;
+    padding: 60px 0;
+  
+    h2 {
+      margin-bottom: 40px;
+      color: $primary-color;
+    }
+  
+    .form-control {
+      border: 1px solid $primary-color;
+    }
+  
+    .btn-primary {
+      background-color: $primary-color;
+      border: none;
+  
+      &:hover {
+        background-color: $secondary-color;
+      }
+    }
+  
+    .contact-info {
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
+  

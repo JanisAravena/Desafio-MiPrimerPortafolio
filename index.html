@@ -1,15 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafío - Mi primer portafolio</title> 
-    <link rel="stylesheet" href="./assets/css/main.css"> 
+    <title>Desafío - Mi primer portafolio</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
 <body>
+    <!-- Navbar comienzo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">JanisAravena</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Mis habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar final -->
+    <!-- Sección Principal -->
+    <section id="inicio" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="./assets/img/ilustracion.png" alt="Ilustración" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-12 text-center text-md-left">
+                    <h1>Soy Janis Aravena</h1>
+                    <h2>Desarrolladora FrontEnd</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta blanditiis eligendi ipsa quos
+                        reiciendis!
+                        Excepteur consequatur dolorem laudantium eaque corrupti, voluptatem beatae suscipit in, sed
+                        natus ipsa
+                        accusantium unde ipsum.</p>
+                    <a href="#contacto" class="btn btn-primary">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Sección de Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Mis habilidades</h2>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-sass fa-3x"></i>
+                    <p>Sass</p>
+                </div>
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-bootstrap fa-3x"></i>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-git fa-3x"></i>
+                    <p>Git</p>
+                </div>
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-github fa-3x"></i>
+                    <p>GitHub</p>
+                </div>
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-js-square fa-3x"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="p-3 text-center mx-4">
+                    <i class="fab fa-vuejs fa-3x"></i>
+                    <p>Vue</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN de Habilidades -->
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Mis Proyectos</h2>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <img src="./assets/img/meetcoffee.png" alt="Project 1" class="img-fluid">
+                    <h3 class="mt-2">Meet & Coffee</h3>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="./assets/img/meetcoffee.png" alt="Project 2" class="img-fluid">
+                    <h3 class="mt-2">Meet & Coffee</h3>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="./assets/img/meetcoffee.png" alt="Project 3" class="img-fluid">
+                    <h3 class="mt-2">Meet & Coffee</h3>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="./assets/img/meetcoffee.png" alt="Project 3" class="img-fluid">
+                    <h3 class="mt-2">Meet & Coffee</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contactame</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group mb-3">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="firstName" placeholder="Nombre"
+                                        name="firstName">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="lastName" placeholder="Apellido"
+                                        name="lastName">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Tu Email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea class="form-control" id="inputMessage" placeholder="Escribe tu mensaje"
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6 d-flex flex-column align-items-start">
+                    <div class="contact-info">
+                        <p><strong><i class="fas fa-phone"></i></strong> +56999887766</p>
+                        <p><strong><i class="fas fa-envelope"></i></strong> <a
+                                href="mailto:tuemail@gmail.com">tuemail@gmail.com</a></p>
+                        <p><strong><i class="fab fa-linkedin"></i></strong> <a href="#">tuLinkedin</a></p>
+                        <p><strong><i class="fab fa-github"></i></strong> <a href="#">Tu GitHub</a></p>
+                        <p><strong><i class="fab fa-instagram"></i></strong> <a href="#">Tu Instagram</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://kit.fontawesome.com/da5be8e1a4.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
